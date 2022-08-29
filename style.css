@@ -1,0 +1,95 @@
+.shirt-div {
+  position: relative;
+  display: inline-flex;
+  background-color: rgb(136, 144, 212);
+  justify-content: space-evenly;
+  height: 350px;
+  width: 30vw;
+  border: 3px solid grey;
+}
+.shirt-div img {
+  display: block;
+  margin-bottom: 100px;
+  border: 1px solid black;
+}
+.shirt-div .description {
+  display: flex;
+  position: absolute;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 44%;
+  margin-right: 20%;
+}
+.shirt-div .price {
+  position: absolute;
+  display: flex;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 44%;
+  margin-left: 20%;
+}
+.shirt-div button {
+  display: inline-flex;
+  justify-content: center;
+  height: 20px;
+  width: 60px;
+  margin-top: 50%;
+  text-transform: uppercase;
+  background-color: rgba(160, 106, 248, 0.9);
+  border: 1px solid #000;
+}
+.shirt-div button:hover {
+  cursor: pointer;
+  background-color: rgb(128, 50, 252);
+  transform: translate(-10, 10);
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+}
+.shirt-div button:active {
+  transform: scale(1);
+  transform: translate(-20, -30);
+  transition: all 0.5s ease;
+}
+
+.cart {
+  background-image: url(cart.jpg);
+  background-size: cover;
+  visibility: visible;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-left: 97%;
+  height: 50px;
+  width: 60px;
+  border: 1px solid black;
+  border-radius: 40%;
+}
+.cart:hover {
+  cursor: pointer;
+  background-color: aqua;
+  scale: 1.2;
+  transition: all 0.5s ease;
+}
+
+.hidden {
+  position: relative;
+  margin-left: 92%;
+  height: 200px;
+  width: 100px;
+  visibility: hidden;
+}
+.hidden:hover {
+  visibility: visible;
+}
+
+.fourth {
+  margin-left: 20px;
+}/*# sourceMappingURL=style.css.map */
